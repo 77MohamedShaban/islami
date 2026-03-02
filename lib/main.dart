@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami/ui/hadith_details/screen/hadith_details_screen.dart';
 import 'package:islami/ui/home/screen/home_screen.dart';
 
 void main() {
@@ -14,8 +15,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Islami',
-      routes: {HomeScreen.routeName:(_)=>HomeScreen()},
-      initialRoute:HomeScreen.routeName ,
+      routes: {
+        HomeScreen.routeName: (_) => HomeScreen(),
+        HadithDetailsScreen.routeName: (_) => HadithDetailsScreen(),
+      },
+      initialRoute: HomeScreen.routeName,
     );
   }
 }

@@ -13,5 +13,13 @@ static const String islamiHeader ="assets/images/islami_header.png";
 static const String mostResent ="assets/images/img_most_recent.png";
 static const String quranBackground ="assets/images/quran_Background.png";
 static const String quranFrame ="assets/images/img_sur_number_frame.svg";
+static const String ahadithBackground ="assets/images/ahadeth_Background.png";
+static const String leftCornerHadith ="assets/images/left_corner_hadith.png";
+static const String rightCornerHadith ="assets/images/right_corner_hadith.png";
+static const String  hadithCardBack="assets/images/HadithCardBackGround_1.png";
+static const String mosqueHadith ="assets/images/Mosque-hadith.png";
+static const String mosqueHadithDetails ="assets/images/Mosque_hadith_details_screen.png";
+
+
 
 }
