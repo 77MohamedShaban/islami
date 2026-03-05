@@ -7,6 +7,7 @@ abstract final class StringsManager {
   static const String suraName ="Sura Name";
   static const String mostRecently ="Most Recently";
   static const String surasList ="Suras List";
+  static const String hadith ="Hadith";
   static const String sebhaTitle ="سَبِّحِ اسْمَ رَبِّكَ الأعلى";
   static const String introTitle_1 ="Welcome To Islmi App";
   static const String introTitle_2 ="Welcome To Islami";
