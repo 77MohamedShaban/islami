@@ -17,16 +17,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Islami',
-      routes: {
-        HomeScreen.routeName: (_) => HomeScreen(),
-        HadithDetailsScreen.routeName: (_) => HadithDetailsScreen(),
-      },
       initialRoute: HomeScreen.routeName,
       routes: {HomeScreen.routeName:(_)=>HomeScreen(),
-      IntroScreen.routeName:(_)=>IntroScreen()
+      IntroScreen.routeName:(_)=>IntroScreen(),
       SuraDetailsScreen.routeName:(_)=>SuraDetailsScreen()
+        ,HadithDetailsScreen.routeName: (_) => HadithDetailsScreen(),
       },
-      initialRoute:HomeScreen.routeName ,
     );
   }
 }
