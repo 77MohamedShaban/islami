@@ -13,5 +13,8 @@ static const String islamiHeader ="assets/images/islami_header.png";
 static const String mostResent ="assets/images/img_most_recent.png";
 static const String quranBackground ="assets/images/quran_Background.png";
 static const String quranFrame ="assets/images/img_sur_number_frame.svg";
+static const String leftCorner ="assets/images/img_left_corner.png";
+static const String rightCorner ="assets/images/img_right_corner.png";
+static const String mosque ="assets/images/img_bottom_decoration.png";
 
 }
