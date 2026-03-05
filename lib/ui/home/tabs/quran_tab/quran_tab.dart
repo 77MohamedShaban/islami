@@ -6,6 +6,7 @@ import 'package:islami/core/resources/strings_manager.dart';
 import 'package:islami/model/sura_model.dart';
 import 'package:islami/ui/home/tabs/quran_tab/widgets/most_recently_item.dart';
 import 'package:islami/ui/home/tabs/quran_tab/widgets/sura_item.dart';
+import 'package:islami/ui/intro/screen/intro_screen.dart';
 
 class QuranTab extends StatelessWidget {
   const QuranTab({super.key});
@@ -29,7 +30,8 @@ class QuranTab extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Align(
+              IconButton(onPressed: (){Navigator.pushNamed(context, IntroScreen.routeName);}, icon: Icon(Icons.arrow_back_outlined))
+              ,Align(
                 alignment: Alignment.center,
                 child: Image.asset(
                   AssetsManager.islamiHeader,

@@ -16,5 +16,10 @@ static const String quranFrame ="assets/images/img_sur_number_frame.svg";
 static const String sebhaBackground ="assets/images/sebha-Background.png";
 static const String sebhaCounterHead ="assets/images/sebha_counter_head.png";
 static const String sebhaCounter ="assets/images/sebha_counter.png";
+static const String introImage_1 ="assets/images/intro_image_1.png";
+static const String introImage_2 ="assets/images/intro_image_2.png";
+static const String introImage_3 ="assets/images/intro_image_3.png";
+static const String introImage_4 ="assets/images/intro_image_4.png";
+static const String introImage_5 ="assets/images/intro_image_5.png";
 
 }
