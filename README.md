@@ -73,7 +73,7 @@ lib/
 │   ├── home/         # Home navigation and tabs
 │   ├── intro/        # Onboarding screens
 │   ├── sura_details/ # Quran reading screen
-│   └── hadith_details/
+│   └── hadith_details/ # hadith reading screen
 └── main.dart         # Entry point
 ```
 
