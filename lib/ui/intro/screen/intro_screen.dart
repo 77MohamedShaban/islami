@@ -6,6 +6,7 @@ import 'package:islami/model/intro_model.dart';
 import 'package:islami/ui/home/screen/home_screen.dart';
 import 'package:islami/ui/intro/widgets/chioesed.dart';
 import 'package:islami/ui/intro/widgets/intro_item.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class IntroScreen extends StatefulWidget {
   static const String routeName = "introScreen";
@@ -76,7 +77,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   controller: pageController,
                   itemBuilder: (context, index) =>
                       IntroItem(introData: introDataList[index]),
-                  itemCount: 5,
+                  itemCount: introDataList.length,
                   onPageChanged: (value) {
                     setState(() {
                       currentIndex = value;
@@ -123,9 +124,11 @@ class _IntroScreenState extends State<IntroScreen> {
                     ),
                   ),
                     TextButton(
-                      onPressed: () {
+                      onPressed: () async {
                         if (currentIndex == introDataList.length - 1) {
-                          Navigator.pushNamed(context, HomeScreen.routeName);
+                          final prefs = await SharedPreferences.getInstance();
+                          await prefs.setBool('is_intro_shown', true);
+                          Navigator.pushReplacementNamed(context, HomeScreen.routeName);
                         } else {
                           pageController.nextPage(
                             duration: Duration(milliseconds: 500),
