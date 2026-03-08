@@ -3,7 +3,7 @@
 Islami is a comprehensive Islamic application built with **Flutter**, designed to provide users with essential Islamic features in a beautifully crafted and user-friendly interface.
 
 <div align="center">
-  <img src="assets/islami_app_video.gif" width="300" alt="App Demo" />
+  <video src="https://github.com/user-attachments/assets/3832b4e7-9522-45e2-a583-bce20d5a834a" width="500"  controls><\video>
 </div>
 
 ## ✨ Features
