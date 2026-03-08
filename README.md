@@ -2,6 +2,10 @@
 
 Islami is a comprehensive Islamic application built with **Flutter**, designed to provide users with essential Islamic features in a beautifully crafted and user-friendly interface.
 
+<div align="center">
+  <img src="assets/islami_app_video.gif" width="300" alt="App Demo" />
+</div>
+
 ## ✨ Features
 
 - **📖 Holy Quran:** Read all Surahs of the Quran with a clean and clear interface.
@@ -29,6 +33,7 @@ Islami is a comprehensive Islamic application built with **Flutter**, designed t
    <img src="https://github.com/user-attachments/assets/8d093c24-43d5-4cdf-97c2-9130dcb6b450" width="230" alt="Intro Screen 3" />
    <img src="https://github.com/user-attachments/assets/63c335bb-cf60-4d55-be99-1f5104083542" width="230" alt="Intro Screen 4" />
    <img src="https://github.com/user-attachments/assets/a234f762-c567-46c3-a422-9986cedf7c38" width="230" alt="Intro Screen 5" />
+   
    <h3>Main Features</h3>
    <img src="https://github.com/user-attachments/assets/80cd90f8-fe31-487c-85c0-5d7725547d8b" width="230" alt="Home Screen" />
    <img src="https://github.com/user-attachments/assets/95a1770f-0c9f-4198-9da3-f2739649318c" width="230" alt="Sura Details" />
@@ -37,9 +42,7 @@ Islami is a comprehensive Islamic application built with **Flutter**, designed t
    <img src="https://github.com/user-attachments/assets/264bf72d-d242-4cf8-a01a-f72040e9d635" width="230" alt="Sebha Screen" />
    <img src="https://github.com/user-attachments/assets/3031d8a2-90a6-48d9-bfb7-1e775b46cf45" width="230" alt="Radio Screen" />
    <img src="https://github.com/user-attachments/assets/81aa27e3-95ef-42ad-91cc-58f5be591236" width="230" alt="Time Screen" />
- </div>
-​
-   <h3>Main Features</h3>
+</div>
 
 ## 🛠️ Installation
 
