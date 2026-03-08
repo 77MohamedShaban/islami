@@ -4,7 +4,12 @@ Islami is a comprehensive Islamic application built with **Flutter**, designed t
 
 ## 🎥 App Demo
 
-https://github.com/user-attachments/assets/3832b4e7-9522-45e2-a583-bce20d5a834a
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/3832b4e7-9522-45e2-a583-bce20d5a834a" width="300" controls>
+  </video>
+</div>
+
+## ✨ Features
 
 - **📖 Holy Quran:** Read all Surahs of the Quran with a clean and clear interface.
 - **📜 Hadith:** Access a collection of Prophetic Hadiths.
