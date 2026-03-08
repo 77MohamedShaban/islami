@@ -24,10 +24,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       backgroundColor: ColorsManager.black,
       bottomNavigationBar: NavigationBar(
-        selectedIndex: selectedIndex,
+        height: screenHeight*0.09
+        ,selectedIndex: selectedIndex,
         onDestinationSelected: (value) {
           setState(() {
             selectedIndex = value;

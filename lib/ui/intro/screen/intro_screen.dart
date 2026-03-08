@@ -71,7 +71,7 @@ class _IntroScreenState extends State<IntroScreen> {
           child: Column(
             children: [
               Image.asset(AssetsManager.islamiHeader, width: screenWidth * .75),
-              SizedBox(height: 60),
+              SizedBox(height: 50),
               Expanded(
                 child: PageView.builder(
                   controller: pageController,

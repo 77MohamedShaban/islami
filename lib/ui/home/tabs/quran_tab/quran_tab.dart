@@ -30,8 +30,7 @@ class QuranTab extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              IconButton(onPressed: (){Navigator.pushNamed(context, IntroScreen.routeName);}, icon: Icon(Icons.arrow_back_outlined))
-              ,Align(
+             Align(
                 alignment: Alignment.center,
                 child: Image.asset(
                   AssetsManager.islamiHeader,

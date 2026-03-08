@@ -41,7 +41,7 @@ class IntroItem extends StatelessWidget {
                  introData.description,
                  textAlign: TextAlign.center,
                  style: TextStyle(
-                   height:1.7
+                   height:1.3
                    ,fontSize: 20,
                    fontWeight: FontWeight.w700,
                    color: ColorsManager.gold,
