@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Islami',
       routes: {HomeScreen.routeName:(_)=>HomeScreen(),
       IntroScreen.routeName:(_)=>IntroScreen()
-      SuraDetailsScreen.routeName:(_)=>SuraDetailsScreen()
+      ,SuraDetailsScreen.routeName:(_)=>SuraDetailsScreen()
       },
       initialRoute:HomeScreen.routeName ,
     );
