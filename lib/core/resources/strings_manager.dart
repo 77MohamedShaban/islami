@@ -18,4 +18,6 @@ abstract final class StringsManager {
   static const String introDescription_2 ="Read, and your Lord is the Most Generous";
   static const String introDescription_3 ="Praise the name of your Lord, the Most High";
   static const String introDescription_4 ="You can listen to the Holy Quran Radio through the application for free and easily";
+  static const String noSavedSuras ="No Saved suras found";
+
 }

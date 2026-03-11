@@ -5,18 +5,26 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:islami/main.dart';
 
 void main() {
-  testWidgets('App starts with IntroScreen or HomeScreen', (WidgetTester tester) async {
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    // We pass isIntroShown: false to simulate first-time launch
-    await tester.pumpWidget(const MyApp(isIntroShown: false));
+    await tester.pumpWidget(const MyApp());
 
-    // Basic check: verify the app builds and shows some text or structure.
-    // Since it's a dynamic app, we just check if MyApp can be pumped.
-    expect(find.byType(MyApp), findsOneWidget);
+    // Verify that our counter starts at 0.
+    expect(find.text('0'), findsOneWidget);
+    expect(find.text('1'), findsNothing);
+
+    // Tap the '+' icon and trigger a frame.
+    await tester.tap(find.byIcon(Icons.add));
+    await tester.pump();
+
+    // Verify that our counter has incremented.
+    expect(find.text('0'), findsNothing);
+    expect(find.text('1'), findsOneWidget);
   });
 }

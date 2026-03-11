@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami/core/remote/local/prefs_manager.dart';
 import 'package:islami/core/resources/assets_manager.dart';
 import 'package:islami/core/resources/colors_manager.dart';
 import 'package:islami/core/resources/strings_manager.dart';
@@ -6,7 +7,6 @@ import 'package:islami/model/intro_model.dart';
 import 'package:islami/ui/home/screen/home_screen.dart';
 import 'package:islami/ui/intro/widgets/chioesed.dart';
 import 'package:islami/ui/intro/widgets/intro_item.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class IntroScreen extends StatefulWidget {
   static const String routeName = "introScreen";
@@ -126,8 +126,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     TextButton(
                       onPressed: () async {
                         if (currentIndex == introDataList.length - 1) {
-                          final prefs = await SharedPreferences.getInstance();
-                          await prefs.setBool('is_intro_shown', true);
+                          PrefsManager.Onboardingbuild(false);
                           Navigator.pushReplacementNamed(context, HomeScreen.routeName);
                         } else {
                           pageController.nextPage(
