@@ -45,12 +45,6 @@ class _QuranTabState extends State<QuranTab> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              IconButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, IntroScreen.routeName);
-                },
-                icon: Icon(Icons.arrow_back_outlined),
-              ),
               Align(
                 alignment: Alignment.center,
                 child: Image.asset(
