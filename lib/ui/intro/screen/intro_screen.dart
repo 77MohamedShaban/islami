@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami/core/remote/local/prefs_manager.dart';
 import 'package:islami/core/resources/assets_manager.dart';
 import 'package:islami/core/resources/colors_manager.dart';
 import 'package:islami/core/resources/strings_manager.dart';
@@ -125,6 +126,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     TextButton(
                       onPressed: () async {
                         if (currentIndex == introDataList.length - 1) {
+                          PrefsManager.Onboardingbuild(false);
                           Navigator.pushReplacementNamed(context, HomeScreen.routeName);
                         } else {
                           pageController.nextPage(

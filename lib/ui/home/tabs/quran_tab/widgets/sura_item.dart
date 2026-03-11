@@ -7,13 +7,16 @@ import 'package:islami/ui/sura_details/screen/sura_details_screen.dart';
 
 class SuraItem extends StatelessWidget {
  final SuraModel sura;
-  const SuraItem({required this.sura});
+  final void Function() onClick;
+  const SuraItem({required this.sura,required this.onClick});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
         Navigator.pushNamed(context,SuraDetailsScreen.routeName,arguments: sura);
+        onClick();
+
       }
       ,child: Row(children: [
         Stack(
