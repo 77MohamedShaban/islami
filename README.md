@@ -6,10 +6,7 @@
 
 ## 🎥 App Demo
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/3832b4e7-9522-45e2-a583-bce20d5a834a" width="300" controls>
-  </video>
-</div>
+👉 Watch Demo Video: https://www.linkedin.com/posts/mohamed-shaban-480019398_flutter-mobiledevelopment-dart-ugcPost-7469132804849790977-uEG1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGGI0GABNB-j_SY7kBI5UbRrqZX0uGYNWw8
 
 ---
 
