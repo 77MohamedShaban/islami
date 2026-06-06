@@ -33,8 +33,15 @@ dependencies:
   flutter_native_splash: ^2.4.7
   flutter_svg: ^2.2.3
   shared_preferences: ^2.2.2
+  animated_toggle_switch: ^0.8.7
+  provider: ^6.1.5+1
+  json_annotation: ^4.9.0
+  dio: ^5.9.2
+  just_audio: ^0.10.5
 
 dev_dependencies:
+  build_runner:
+  json_serializable: ^6.10.0
   flutter_test:
     sdk: flutter
 

@@ -15,6 +15,7 @@ class Chioesed extends StatelessWidget {
         color:currentPage? ColorsManager.gold  : ColorsManager.gray,
         shape: BoxShape.circle
     ),
+
     );
   }
 }

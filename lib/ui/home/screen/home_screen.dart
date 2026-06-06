@@ -5,9 +5,11 @@ import 'package:islami/core/resources/colors_manager.dart';
 import 'package:islami/core/resources/strings_manager.dart';
 import 'package:islami/ui/home/tabs/hadith_tab/hadith_tab.dart';
 import 'package:islami/ui/home/tabs/quran_tab/quran_tab.dart';
+import 'package:islami/ui/home/tabs/radio_tab/provider/radio_tab_provider.dart';
 import 'package:islami/ui/home/tabs/radio_tab/radio_tab.dart';
 import 'package:islami/ui/home/tabs/sebha_tab/sebha_tab.dart';
 import 'package:islami/ui/home/tabs/time_tab/time_tab.dart';
+import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = "home";
@@ -20,7 +22,16 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int selectedIndex = 0;
-  List<Widget> tabs=[QuranTab(),HadithTab(),SebhaTab(),RadioTab(),TimeTab()];
+  List<Widget> tabs = [
+    QuranTab(),
+    HadithTab(),
+    SebhaTab(),
+    ChangeNotifierProvider(
+      create: (context) => RadioTabProvider(),
+      child: RadioTab(),
+    ),
+    TimeTab(),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +39,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: ColorsManager.black,
       bottomNavigationBar: NavigationBar(
-        height: screenHeight*0.09
-        ,selectedIndex: selectedIndex,
+        height: screenHeight * 0.09,
+        selectedIndex: selectedIndex,
         onDestinationSelected: (value) {
           setState(() {
             selectedIndex = value;
