@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Islami',
-      initialRoute: PrefsManager.getOnboardingBuild()?IntroScreen.routeName:HomeScreen.routeName,
+      initialRoute: true?IntroScreen.routeName:HomeScreen.routeName,
       routes: {
         HomeScreen.routeName: (_) => HomeScreen(),
         IntroScreen.routeName: (_) => IntroScreen(),
