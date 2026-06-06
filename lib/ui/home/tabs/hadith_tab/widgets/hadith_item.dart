@@ -6,10 +6,9 @@ import 'package:islami/model/hadith_model.dart';
 import 'package:islami/ui/hadith_details/screen/hadith_details_screen.dart';
 
 class HadithItem extends StatefulWidget {
-  final bool isSelected;
   final int index;
 
-  const HadithItem({required this.isSelected, required this.index});
+  const HadithItem({super.key, required this.index});
 
   @override
   State<HadithItem> createState() => _HadithItemState();
@@ -29,13 +28,14 @@ class _HadithItemState extends State<HadithItem> {
 
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, HadithDetailsScreen.routeName,arguments: hadithData);
-      }
-      ,child: Container(
-        margin: EdgeInsets.symmetric(
-          horizontal: 8,
-          vertical: widget.isSelected ? 0 : 20,
-        ),
+        Navigator.pushNamed(
+          context,
+          HadithDetailsScreen.routeName,
+          arguments: hadithData,
+        );
+      },
+      child: Container(
+        margin: EdgeInsets.symmetric(horizontal: 8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: ColorsManager.gold,
@@ -54,9 +54,10 @@ class _HadithItemState extends State<HadithItem> {
                       child: Column(
                         children: [
                           Stack(
-                          children: [
+                            children: [
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Image.asset(AssetsManager.leftCornerHadith),
                                   Image.asset(AssetsManager.rightCornerHadith),
@@ -64,18 +65,18 @@ class _HadithItemState extends State<HadithItem> {
                               ),
                               Center(
                                 child: Container(
-                                   width: screenWidth * .46,
-                                   margin: EdgeInsets.only(top: 30),
-                                   child: Text(
+                                  width: screenWidth * .46,
+                                  margin: EdgeInsets.only(top: 30),
+                                  child: Text(
                                     hadithData!.title,
-                                     textAlign: TextAlign.center,
-                                     style: TextStyle(
-                                       color: ColorsManager.black,
-                                       fontSize: 24,
-                                       fontWeight: FontWeight.w700,
-                                     ),
-                                   ),
-                                 ),
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      color: ColorsManager.black,
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.w700,
+                                    ),
+                                  ),
+                                ),
                               ),
                             ],
                           ),
@@ -126,7 +127,11 @@ class _HadithItemState extends State<HadithItem> {
     String title = hadithList[0];
     hadithList.removeAt(0);
     String content = hadithList.join(" ");
-    hadithData = HadithModel(title: title, content: content, hadithNumber: (widget.index + 1).toString());
+    hadithData = HadithModel(
+      title: title,
+      content: content,
+      hadithNumber: (widget.index + 1).toString(),
+    );
     setState(() {
       print(hadithData);
     });

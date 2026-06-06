@@ -39,8 +39,14 @@ class _HadithTabState extends State<HadithTab> {
             Expanded(
               child: PageView.builder(
                 controller: pageController,
-                itemBuilder: (context, index) => HadithItem(
-                  isSelected: index == selectedPageIndex, index: index,
+                itemBuilder: (context, index) => AnimatedContainer(
+                  duration: const Duration(milliseconds: 300),
+                  curve: Curves.easeInOut,
+                  margin: EdgeInsets.symmetric(
+                    vertical: selectedPageIndex == index ? 0 : 40,
+                    horizontal: 10,
+                  ),
+                  child: HadithItem(index: index),
                 ),
                 itemCount: 50,
                 onPageChanged: (currentPageIndex) {

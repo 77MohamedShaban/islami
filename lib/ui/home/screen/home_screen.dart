@@ -8,7 +8,6 @@ import 'package:islami/ui/home/tabs/quran_tab/quran_tab.dart';
 import 'package:islami/ui/home/tabs/radio_tab/provider/radio_tab_provider.dart';
 import 'package:islami/ui/home/tabs/radio_tab/radio_tab.dart';
 import 'package:islami/ui/home/tabs/sebha_tab/sebha_tab.dart';
-import 'package:islami/ui/home/tabs/time_tab/time_tab.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -30,7 +29,6 @@ class _HomeScreenState extends State<HomeScreen> {
       create: (context) => RadioTabProvider(),
       child: RadioTab(),
     ),
-    TimeTab(),
   ];
 
   @override
@@ -76,11 +74,6 @@ class _HomeScreenState extends State<HomeScreen> {
             selectedIcon: SvgPicture.asset(AssetsManager.radio_selected),
             icon: SvgPicture.asset(AssetsManager.radio),
             label: StringsManager.radioTab,
-          ),
-          NavigationDestination(
-            selectedIcon: SvgPicture.asset(AssetsManager.time_selected),
-            icon: SvgPicture.asset(AssetsManager.time),
-            label: StringsManager.timeTab,
           ),
         ],
       ),
