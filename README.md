@@ -69,28 +69,29 @@ The "Islami" project was developed to serve as a comprehensive companion for eve
    <h3>🌟 Onboarding & Splash</h3>
    <table style="width:100%">
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/b23f6da9-ebcc-4893-8625-c8e8d13e0762" width="200" alt="Splash" /></td>
-      <td><img src="https://github.com/user-attachments/assets/61944ffb-c887-45a6-83a1-bd30317de9ab" width="200" alt="Intro 1" /></td>
-      <td><img src="https://github.com/user-attachments/assets/2a36bebf-de2e-4fbb-ae1e-9376cee839f2" width="200" alt="Intro 2" /></td>
+      <td><img src="https://github.com/user-attachments/assets/a47df863-af3c-47cf-9ba3-9391b14914fb" width="200" alt="Splash" /></td>
+      <td><img src="https://github.com/user-attachments/assets/3c5cf35c-3534-46c3-8f08-c12f4fc9d177" width="200" alt="Intro 1" /></td>
+      <td><img src="https://github.com/user-attachments/assets/1dba92c6-2402-4e36-838b-0e618f6cde4c" width="200" alt="Intro 2" /></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/8d093c24-43d5-4cdf-97c2-9130dcb6b450" width="200" alt="Intro 3" /></td>
-      <td><img src="https://github.com/user-attachments/assets/63c335bb-cf60-4d55-be99-1f5104083542" width="200" alt="Intro 4" /></td>
-      <td><img src="https://github.com/user-attachments/assets/a234f762-c567-46c3-a422-9986cedf7c38" width="200" alt="Intro 5" /></td>
+      <td><img src="https://github.com/user-attachments/assets/f42f0571-4d61-4147-96f6-e5345ca3bebf" width="200" alt="Intro 3" /></td>
+      <td><img src="https://github.com/user-attachments/assets/28585f6c-c079-44b8-95dd-b33a6643c646" width="200" alt="Intro 4" /></td>
+      <td><img src="https://github.com/user-attachments/assets/b30e7477-70f1-49e0-b5bc-235d019882b0" width="200" alt="Intro 5" /></td>
     </tr>
   </table>
 
 <h3>🕋 Main App Features</h3>
    <table style="width:100%">
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/80cd90f8-fe31-487c-85c0-5d7725547d8b" width="200" alt="Home" /></td>
-      <td><img src="https://github.com/user-attachments/assets/95a1770f-0c9f-4198-9da3-f2739649318c" width="200" alt="Quran" /></td>
-      <td><img src="https://github.com/user-attachments/assets/e8d96ca7-73e5-4221-9618-d11af740c71b" width="200" alt="Hadeth" /></td>
+      <td><img src="https://github.com/user-attachments/assets/dc8c538d-0a5d-4043-acb4-b970ec3667b2" width="200" alt="Home" /></td>
+      <td><img src="https://github.com/user-attachments/assets/8bcb8240-487c-4a86-8024-baca4fb0f1ad" width="200" alt="Quran" /></td>
+      <td><img src="https://github.com/user-attachments/assets/fb1e7556-9d64-40e7-9e7c-fb14280ae539" width="200" alt="Hadeth" /></td>
+      <td><img src="https://github.com/user-attachments/assets/87c353cf-8ef3-45a3-b2ab-e925094b2fac" width="200" alt="Sebha" /></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/264bf72d-d242-4cf8-a01a-f72040e9d635" width="200" alt="Sebha" /></td>
-      <td><img src="https://github.com/user-attachments/assets/3031d8a2-90a6-48d9-bfb7-1e775b46cf45" width="200" alt="Radio" /></td>
-      <td><img src="https://github.com/user-attachments/assets/81aa27e3-95ef-42ad-91cc-58f5be591236" width="200" alt="Time" /></td>
+      <td><img src="https://github.com/user-attachments/assets/bcd2bf32-af31-44d2-86b1-604c602de548" width="200" alt="Radio" /></td>
+      <td><img src="https://github.com/user-attachments/assets/275f14b9-ef26-4116-9d95-628710f85387" width="200" alt="Time" /></td>
+      <td><img src="https://github.com/user-attachments/assets/67d12dfd-d48d-4ac5-8014-a656e9be13ca" width="200" alt="Time" /></td>
     </tr>
   </table>
 </div>
